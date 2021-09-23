@@ -8,9 +8,7 @@ public class Main {
         if (transactionNew > 1000) {
            transactionNew =  transactionNew + (int) transactionNew / 100;
 
-    } else {
-            transactionNew =  transactionNew;
-    }
+      }
         float totalBalance = balanceNow +  transactionNew;
            System.out.println(totalBalance);
     }
